@@ -45,6 +45,7 @@ complete -F _gcomp g
 
 
 function col {
+	[ ! -z $2 ] && { awk -F$2 -v col=$1 '{print $col}'; exit $?; }
 	awk -v col=$1 '{print $col}'
 }
 
