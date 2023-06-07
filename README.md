@@ -4,7 +4,7 @@ Contains other people's work as well as my addons.
 
 Some examples of the included .bashrc functionality:
 
-
+```
 cat /var/log/httpd/access_log | col 4
 output:
 [19/Apr/2016:11:40:10
@@ -46,5 +46,5 @@ output:
 dnr /usr/lib
 output:
 35
-
+```
 
